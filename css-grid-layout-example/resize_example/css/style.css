@@ -1,3 +1,21 @@
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  font-size: 4vw;
+}
+
+.image-size {
+  height: 32vw;
+  width: 42.66vw;
+  /*
+  height: 50vmin;
+  width: 66vmin;
+  */
+}
 .grid-container {
   font-family: "Open Sans";
   font-size: 24px;
@@ -23,13 +41,13 @@
     "footer footer footer";
 }
 
- .grid-container header { grid-area: header; }
+.grid-container header { grid-area: header; }
 
 .grid-container main { grid-area: main; }
 
 .grid-container nav { grid-area: navigation; }
 
-.grid-container aside { grid-area: sidebar; }
+.grid-container aside { grid-area: sidebar; font-size: 14px; }
 
 .grid-container footer { grid-area: footer; }
 
@@ -56,3 +74,17 @@
       "footer";
   }
 }
+
+/*
+Tricks when using CSS grid,
+  1) Inspect with console, put dev tools on the bottom as our media queries are all set to monitor the width ☝️ .
+    For scenerios when monitoring vw, have dev tools on the bottom.
+  2) For scenerios when monitoring vh, have dev tools on the right.
+  3) Images resize based on width, use dev tools at bottom of screen.
+  4) get info on your image, write down pixel width view pixels.
+*/
+/*
+I need to write down all the things I did today.
+
+https://css-tricks.com/simple-little-use-case-vmin/
+*/

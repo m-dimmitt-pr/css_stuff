@@ -7,7 +7,7 @@ open https://github.com/MichaelDimmitt/an_attempt_at_scalable_media_queries/blob
 ## 0) Beginning, the talk. Speak up at any time. Have you run into these css problems how did you solve the issue?
 
 ## 1) Original problem, resizing text and its usecase a banner.
-link: [I am not the only one]()
+link: [I am not the only one](https://css-tricks.com/simple-little-use-case-vmin)
 code css-resize-rules/base-level-css.html
 open css-resize-rules/base-level-css.html
 
@@ -37,16 +37,11 @@ notes
 ```javascript
 /*
 Tricks when using CSS grid,
-  1) Think about how large you want your elements to become. Maybe there is a nasty word-wrap that occours.
-    You do not need to look for a specific element as media-queries change based on screen-size.
-  2) Inspect with console and put it on the bottom as our media queries are all set to monitor the width ☝️ .
-
-  3) For an image, both height and width, calculate based on vh if your dev tool console on the right. later translate to vmin
-    Dev tool wants to be on the right because vertical realestate is less on most computers.
-  idea: git file summaries.
-    Summaries can include, many steps taken to build a project. without bug fix or patch.
-
-  4) got to desired screen... get max pixel height how you want it written down. ie:592
+  1) Inspect with console, put dev tools on the bottom as our media queries are all set to monitor the width ☝️ .
+    For scenerios when monitoring vw, have dev tools on the bottom.
+  2) For scenerios when monitoring vh, have dev tools on the right.
+  3) Images resize based on width, use dev tools at bottom of screen.
+  4) get info on your image, write down pixel width view pixels.
 */
 /*
 I need to write down all the things I did today.
