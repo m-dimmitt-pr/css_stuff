@@ -49,7 +49,7 @@
 @media all and (display-mode: fullscreen) {
   .grid-container {
     grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: 12vw 1fr 120px;
+    grid-template-rows: 12vw 1fr 80px;
     grid-template-areas: "header header header"
      "navigation main sidebar"
      "footer footer footer";
@@ -59,7 +59,7 @@
 @media not all and (display-mode: fullscreen) {
   .grid-container {
     grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: 12vw 1fr 45px;
+    grid-template-rows: 12vw 1fr 30px;
     grid-template-areas: "header header header"
      "navigation main sidebar"
      "footer footer footer";
