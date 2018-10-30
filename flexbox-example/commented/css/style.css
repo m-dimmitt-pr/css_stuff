@@ -1,5 +1,4 @@
 /* Some initial styling */
-
 body {
   font-family: "Open Sans";
   font-size: 16px;
@@ -10,9 +9,7 @@ body {
   text-align: center;
 }
 
-
 /* Layout Elements */
-
 .flex-container {
   min-height: 100vh;
 /*   display: flex; */
@@ -60,10 +57,10 @@ article {
 }
 
 header img {
-    padding: 10px;
-    box-sizing: border-box;
-    max-height: 100px;
-  }
+  padding: 10px;
+  box-sizing: border-box;
+  max-height: 100px;
+}
 
 /* @media screen and (min-width: 767px) {
   main {
