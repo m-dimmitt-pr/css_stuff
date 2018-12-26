@@ -4,7 +4,7 @@ body {
 .text-center {
   display: flex; align-items: center; justify-content: center;
 }
-  .banner { font-size: 4vw; }
+.banner { font-size: 4vw; }
 
 .image-size { width: 42.66vw; padding-bottom:12px; }
 
@@ -22,7 +22,7 @@ footer { grid-area: footer; }
 
 @media all and (display-mode: fullscreen) {
   .grid-container {
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
      "header header header"
@@ -33,7 +33,7 @@ footer { grid-area: footer; }
 
 @media not all and (display-mode: fullscreen) {
   .grid-container {
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
      "header header header"
@@ -57,7 +57,7 @@ footer { grid-area: footer; }
 @media screen and (max-width: 678px) {
   .grid-container {
     grid-template-columns: 100%;
-    grid-template-rows: 12vw 50px 1fr 1fr 30px;
+    grid-template-rows: 12vw 50px  1fr 1fr 1fr;
     grid-template-areas:
       "header"
       "navigation"
