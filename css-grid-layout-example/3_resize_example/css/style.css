@@ -4,18 +4,14 @@ body {
 .text-center {
   display: flex; align-items: center; justify-content: center;
 }
+  .banner { font-size: 4vw; }
 
-.image-size { width: 42.66vw; }
+.image-size { width: 42.66vw; padding-bottom:12px; }
 
-.grid-container {
-  height: calc(100vh - 1em); display: grid; grid-gap: 15px;
+.grid-container { height: calc(100vh - 16px /*because margin is 8px * 2*/); display: grid; grid-gap: 15px;
 }
 
-.grid-item {
-  background: #229fd9;
-  text-align: center;
-  padding: 15px;
-}
+.grid-item { background: #229fd9; text-align: center; }
 
 /* Map html tags to grid container. */
 header { grid-area: header; }
@@ -27,8 +23,9 @@ footer { grid-area: footer; }
 @media all and (display-mode: fullscreen) {
   .grid-container {
     grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: 120px 1fr 120px;
-    grid-template-areas: "header header header"
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+     "header header header"
      "navigation main sidebar"
      "footer footer footer";
  }
@@ -37,8 +34,9 @@ footer { grid-area: footer; }
 @media not all and (display-mode: fullscreen) {
   .grid-container {
     grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: 45px auto 45px;
-    grid-template-areas: "header header header"
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+     "header header header"
      "navigation main sidebar"
      "footer footer footer";
  }
@@ -48,7 +46,8 @@ footer { grid-area: footer; }
   .grid-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "header header"
+    grid-template-areas:
+      "header header"
       "navigation navigation"
       "main sidebar"
       "footer footer";
@@ -58,27 +57,32 @@ footer { grid-area: footer; }
 @media screen and (max-width: 678px) {
   .grid-container {
     grid-template-columns: 100%;
-    grid-template-rows: 12vw 50px 3fr 1fr 30px;
-    grid-template-areas: "header"
+    grid-template-rows: 12vw 50px 1fr 1fr 30px;
+    grid-template-areas:
+      "header"
       "navigation"
       "main"
       "sidebar"
       "footer";
   }
-  .banner { font-size: 4vw; }
   .text-center {
     display: flex;
     justify-content: flex-start;
     text-align:left;
-    align-items: center
+    align-items: center;
+    padding-left: 12px; padding-right: 12px;
   }
   .leftalign {
     display: flex;
     justify-content: flex-start;
     text-align:left;
-    align-items: center
+    align-items: center;
+    padding-left: 12px; padding-right: 12px;
   }
-  .image-size { display: flex; justify-content: flex-start; }
+  .image-size {
+    padding-left: 12px; padding-right: 12px;
+    display: flex; justify-content: flex-start;
+  }
 }
 
 /*
