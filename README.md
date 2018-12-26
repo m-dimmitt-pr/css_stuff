@@ -21,9 +21,12 @@ open css-resize-rules/base-level-css.html
 
 ## 3) Practical application for resizing in general (text and images)
 ```
-open css-grid-layout-example/uncommented/index.html
-code css-grid-layout-example/uncommented/
-open css-grid-layout-example/uncommented/index.html
+open css-grid-layout-example/1_uncommented/index.html
+code css-grid-layout-example/1_uncommented/
+open css-grid-layout-example/1_uncommented/index.html
+open css-grid-layout-example/2_the_problem/index.html
+open css-grid-layout-example/3_resize_example/index.html
+
 ```
 
 ## 4) Bootstrap and Tachyon aspect ratio's

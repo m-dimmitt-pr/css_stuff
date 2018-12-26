@@ -9,12 +9,7 @@
 }
 
 .image-size {
-  height: 32vw;
   width: 42.66vw;
-  /*
-  height: 50vmin;
-  width: 66vmin;
-  */
 }
 .grid-container {
   font-family: "Open Sans";
