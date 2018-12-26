@@ -1,45 +1,28 @@
-.text-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner {
-  font-size: 4vw;
-}
-
-.image-size {
-  width: 42.66vw;
-}
-.grid-container {
+body {
   font-family: "Open Sans";
-  font-size: 24px;
-  color: white;
-  height: calc(100vh - 1em);
-  background: white;
+}
+.text-center {
+  display: flex; align-items: center; justify-content: center;
+}
+
+.image-size { width: 42.66vw; }
+
+.grid-container {
+  height: calc(100vh - 1em); display: grid; grid-gap: 15px;
 }
 
 .grid-item {
-  background: #229fd9ff;
+  background: #229fd9;
   text-align: center;
-  align-content: center;
   padding: 15px;
 }
 
-.grid-container {
-  display: grid;
-  grid-gap: 15px;
-}
-
-.grid-container header { grid-area: header; }
-
-.grid-container main { grid-area: main; }
-
-.grid-container nav { grid-area: navigation; }
-
-.grid-container aside { grid-area: sidebar; font-size: 14px; }
-
-.grid-container footer { grid-area: footer; }
+/* Map html tags to grid container. */
+header { grid-area: header; }
+main { grid-area: main; }
+nav { grid-area: navigation; }
+aside { grid-area: sidebar; font-size: 14px; }
+footer { grid-area: footer; }
 
 @media all and (display-mode: fullscreen) {
   .grid-container {
@@ -82,6 +65,7 @@
       "sidebar"
       "footer";
   }
+.banner { font-size: 4vw; }
   .align-left {
     display: flex;
     align-items: flex-start;
