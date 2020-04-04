@@ -1,27 +1,37 @@
 ## 0) future projects first
 react-skeletor:
+```
 open https://trainline.github.io/react-skeletor/demo/
-scalable media queries:
+```
+<br/>scalable media queries:
+```
 open https://github.com/MichaelDimmitt/an_attempt_at_scalable_media_queries/blob/dev/index.html
+```
 
 ## 0) Beginning, the talk. Speak up at any time. Have you run into these css problems how did you solve the issue?
 
 ## 1) Original problem, resizing text and its usecase a banner.
 link: [I am not the only one](https://css-tricks.com/simple-little-use-case-vmin)
+```
 code css-resize-rules/base-level-css.html
 open css-resize-rules/base-level-css.html
+```
 
 ## 2) The rules used for this project.
 
 ## 3) Practical application for resizing in general (text and images)
+```
 open css-grid-layout-example/uncommented/index.html
 code css-grid-layout-example/uncommented/
 open css-grid-layout-example/uncommented/index.html
+```
 
 ## 4) Bootstrap and Tachyon aspect ratio's
 
 ## 5) Masonry js (grid layout library)
-https://masonry.desandro.com/layout.html#imagesloaded
+```
+open https://masonry.desandro.com/layout.html#imagesloaded
+```
 
 
 notes
